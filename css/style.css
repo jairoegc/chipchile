@@ -1,0 +1,40 @@
+/* Reset and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full-height for HTML and body */
+html, body {
+  height: 100%;
+}
+
+/* Set background and center content */
+body {
+  background-color: #000;       /* Black background */
+  color: #F0EAD6;               /* Creamy/Bone white text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;      /* Fallback font */
+}
+
+/* Style for the text element */
+#text {
+  text-align: center;
+  font-size: 8vw;  /* Responsive font size: 8% of viewport width */
+}
+
+/* Adjust font size on larger screens */
+@media (min-width: 768px) {
+  #text {
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  #text {
+    font-size: 3vw;
+  }
+}
