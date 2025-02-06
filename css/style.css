@@ -24,6 +24,7 @@ body {
 #text {
   text-align: center;
   font-size: 8vw;  /* Responsive font size: 8% of viewport width */
+  font-weight: bold;
 }
 
 /* Adjust font size on larger screens */
